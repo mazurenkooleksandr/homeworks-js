@@ -362,4 +362,35 @@ input::-webkit-inner-spin-button {
   font-size: 40px;
   font-weight: bold;
 }
+
+.forml {
+  margin-top: 40px;
+}
+
+.forml .label-text {
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+.forml .cycles-second-input {
+  width: 200px;
+  height: 40px;
+  margin-top: -200px;
+  padding-top: -40px;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.forml .cycles-second-button {
+  width: 400px;
+  height: 40px;
+  background-color: #e7c6a8;
+  margin-top: 20px;
+}
+
+.forml #res {
+  margin-top: 30px;
+  font-size: 30px;
+}
 /*# sourceMappingURL=style.css.map */
