@@ -7,7 +7,9 @@ function thirdFun() {
         if (number % i == 0) {
                     arr.push(i);         
         }
-        resultNumber.innerHTML = 'Дільники числа: ' + arr;
+        
     }
+
+    resultNumber.innerHTML = 'Дільники числа: ' + arr;
 
 }

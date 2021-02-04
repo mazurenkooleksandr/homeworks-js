@@ -31,16 +31,19 @@
     <section class="second-container">
         <h1>Цикли</h1>
         <h3>Домашнее задание:</h3>
-        <p>1. Подсчитать сумму всех чисел в заданном пользователем диапазоне.</p>
+        <p>5. Запросить у пользователя 10 чисел и подсчитать, сколько он ввел положительных, отрицательных и нулей. При этом также посчитать, сколько четных и нечетных. Вывести статистику на экран. Учтите, что достаточно одной переменной (не 10) для ввода чисел пользователем.</p>
 
-        <form class="cycles-first-form__tab" name="cycles-first-firstForm">
-            <input type="number" id="cycles-first-number__tab_1"name="cyclesFirstIntro" placeholder="Введи початок діапазону" >
-            <input type="number" id="cycles-first-number__tab_2"name="cyclesSecondIntro" placeholder="Введи кінець діапазону"  >
-            <input type="button" class="cycles-first-button__tab" value="Отримай суму" onclick="firstFun()">
+        <form class="cycles-fifth-form__tab" name="cycles-fifth-firstForm">
+            <label class="label-text-fifth-task">Введіть 10 чисел через пробіл</label><br><input type="text" id="cycles-fifth-number"name="cyclesFifthIntro" placeholder="Введи число" >
+            <input type="button" class="cycles-fifth-button" value="Перевірити" onclick="fifthFun()">
         </form>
 
 
-        <div id="cycles-first-result"></div>
+        <div id="cycles-fifth-result-positive">Позитивні числа: 0</div>
+        <div id="cycles-fifth-result-negative">Негативні числа: 0</div>
+        <div id="cycles-fifth-result-loyal">Кількість нулів: 0</div>
+
+        
     </section>
 
     <section class="third-container">
@@ -57,6 +60,6 @@
         </aside>
     </section>
 </main>
-<script src="../js/cycles-first.js"></script>
+<script src="../js/cycles-fifth.js"></script>
 </body>
 </html>
