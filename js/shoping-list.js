@@ -16,7 +16,7 @@ function newElement() {
     let t = document.createTextNode(inputValue);
     li.appendChild(t);
     if(inputValue == "") {
-       alert("Введите ваше дело!");
+       alert("Введи, те що маєш купити!");
     } else {
        document.getElementById('list').appendChild(li);
     }

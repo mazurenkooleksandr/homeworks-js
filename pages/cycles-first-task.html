@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homeworks</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <section class="first-container">
+        <aside class="first-container__menu">
+            <div class="first-container__img">
+                <img src="../img/logo.svg" alt="logo" width="350px" height="100px">
+            </div>
+
+            <nav>
+                <li><a href="../pages/index.html">Масиви</a></li>
+                <li><a href="../pages/cycles.html">Цикли</a></li>
+            </nav>
+        </aside>
+
+        <div class="first-container__header">
+            <p>Домашні завдання</p>
+            <img src="../img/my-photo.jpg" alt="my-photo" width="70px" height="70px">
+        </div>
+    </section>
+    <main class="section-tasks">
+    <section class="second-container">
+        <h1>Цикли</h1>
+        <h3>Домашнее задание:</h3>
+        <p>1. Подсчитать сумму всех чисел в заданном пользователем диапазоне.</p>
+
+        <form class="cycles-first-form__tab" name="cycles-first-firstForm">
+            <input type="number" id="cycles-first-number__tab_1"name="cyclesFirstIntro" placeholder="Введи початок діапазону" >
+            <input type="number" id="cycles-first-number__tab_2"name="cyclesSecondIntro" placeholder="Введи кінець діапазону"  >
+            <input type="button" class="cycles-first-button__tab" value="Отримай суму" onclick="firstFun()">
+        </form>
+
+
+        <div id="cycles-first-result"></div>
+    </section>
+
+    <section class="third-container">
+        <p class="third-container__text">Домашні завдання</p>
+        <aside class="third-container__vertical-menu">
+            <a href="../pages/cycles-first-task.html">1. Список покупок</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+        </aside>
+    </section>
+</main>
+<script src="../js/cycles-first.js"></script>
+</body>
+</html>
