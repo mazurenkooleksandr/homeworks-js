@@ -587,4 +587,35 @@ input::-webkit-inner-spin-button {
   font-size: 30px;
   cursor: pointer;
 }
+
+.function-fourth-form {
+  margin-top: 40px;
+}
+
+.function-fourth-form .function-fourth-a-input,
+.function-fourth-form .function-fourth-b-input {
+  width: 200px;
+  height: 40px;
+  margin-top: -200px;
+  padding-top: -40px;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.function-fourth-form .function-fourth-button {
+  width: 405px;
+  height: 40px;
+  background-color: #13c448;
+  margin-top: 20px;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.function-fourth-result {
+  font-size: 30px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
 /*# sourceMappingURL=style.css.map */

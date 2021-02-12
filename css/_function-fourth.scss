@@ -1,0 +1,31 @@
+.function-fourth-form{
+    margin-top: 40px;
+    
+    .function-fourth-a-input,
+    .function-fourth-b-input{
+        width: 200px;
+        height: 40px;
+        margin-top: -200px;
+        padding-top: -40px;
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .function-fourth-button {
+        width: 405px;
+        height: 40px;
+        background-color: rgb(19, 196, 72);
+        margin-top: 20px;
+        font-size: 30px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+}
+
+.function-fourth-result {
+    font-size: 30px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
