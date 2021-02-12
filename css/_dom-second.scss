@@ -1,0 +1,104 @@
+.dom-second-button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(255, 253, 105);
+    margin-top: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.fourth-container .modal-two {
+    width: 100%;
+    max-width: 400px;
+    height: 240px;
+    border: 1px solid rgb(255, 253, 105);
+    background-color: #fff;
+    margin: 150px auto;
+    border-radius: 5px;
+  }
+  
+  .fourth-container .fourth-container__header {
+    background-color: rgb(247, 243, 8);
+    height: 55px;
+  }
+  
+  .fourth-container .fourth-container__header p {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+  }
+  
+  .fourth-container .fourth-container__text {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .fourth-container .fourth-container__buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+  }
+  
+  .fourth-container .fourth-container__buttons button:first-child {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    outline: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#bfc1d6));
+    background: linear-gradient(top, #fff, rgb(255, 253, 105));
+    border: 2px solid rgb(245, 243, 159);
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 5px rgb(245, 243, 159);
+            box-shadow: 0 0 5px rgb(245, 243, 159);
+    color: #111;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+  
+  .fourth-container .fourth-container__buttons button:first-child:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#bfc1d6), to(#fff));
+    background: linear-gradient(top, rgb(255, 253, 105), #fff);
+  }
+  
+  .fourth-container .fourth-container__buttons button:last-child {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    outline: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#bfc1d6));
+    background: linear-gradient(top, #fff, rgb(255, 253, 105));
+    border: 2px solid rgb(245, 243, 159);
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 5px rgb(245, 243, 159);
+            box-shadow: 0 0 5px rgb(245, 243, 159);
+    color: #111;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+  
+  .fourth-container .fourth-container__buttons button:last-child:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#bfc1d6), to(#fff));
+    background: linear-gradient(top, rgb(255, 253, 105), #fff);
+  }
+  
+  #ask_modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
