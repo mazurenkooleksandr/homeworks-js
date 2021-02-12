@@ -1,0 +1,38 @@
+.form-first-function {
+    margin-top: 40px;
+    .label-text-function-first,
+    .function-first-task-result {
+        font-size: 30px;
+        padding-right: 20px;
+        margin-top: 20px;
+    }
+    
+    .function-first-a-input,
+    .function-first-b-input{
+        width: 200px;
+        height: 40px;
+        margin-top: -200px;
+        padding-top: -40px;
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .function-first-button {
+        width: 400px;
+        height: 40px;
+        background-color: rgb(197, 168, 231);
+        margin-top: 20px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .function-first-button-reset {
+        width: 400px;
+        height: 40px;
+        margin-top: 30px;
+        font-size: 30px;
+        background-color: rgb(197, 168, 231);;
+    }
+
+}
