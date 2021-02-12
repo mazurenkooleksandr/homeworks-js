@@ -1,0 +1,32 @@
+.form-third-function {
+    margin-top: 40px;
+    .label-text-function-third,
+    .function-third-task-result {
+        font-size: 30px;
+        padding-right: 20px;
+        margin-top: 20px;
+    }
+    
+    .function-third-a-input,
+    .function-third-b-input,
+    .function-third-c-input{
+        width: 200px;
+        height: 40px;
+        margin-top: -200px;
+        padding-top: -40px;
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .function-third-button {
+        width: 400px;
+        height: 40px;
+        background-color: rgb(104, 37, 59);
+        color: #fff;
+        margin-top: 20px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+}
