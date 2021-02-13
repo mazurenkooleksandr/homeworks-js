@@ -1,25 +1,29 @@
 let text = document.querySelector('.function-third-task-result');
 
 document.querySelector('.function-third-button').onclick = function(){
-    let a = document.querySelector('.function-third-a-input').value;
-    let b = document.querySelector('.function-third-b-input').value;
-    let c = document.querySelector('.function-third-c-input').value;
+    let letters = ['a', 'b', 'c'];
+    let digits = [];
+    let allIsOK = true;
+    for (let i = 0; i < letters.length; i++) {
+      digits[i] = Number.parseInt(
+        document.querySelector(`.function-third-${letters[i]}-input`).value
+      );
 
-    a = Number.parseInt(a);
-    b = Number.parseInt(b);
-    c = Number.parseInt(c);
-
-    if (isNaN(a) || isNaN(b) || isNaN(c)) {
-      alert("Введите цифры правильно");
-      return;
+      if (isNaN(digits[i]) || (digits[i] < 0 || digits[i] > 9)) {
+        allIsOK = false;
+        break;
+      }
     }
     
-    if ((a < 1 || a > 9) || (b < 0 || b > 9) || (c < 0 || c > 9)) {
+    if (!allIsOK || digits[0] == 0) {
       alert("Введите цифры правильно");
       return;
     }
 
-    let result = a * 100 + b * 10 + c;
+    let result = 0;
+    for (let i = 0, j = digits.length - 1; i < digits.length; i++, j--) {
+      result+= digits[j] * (10**i);
+    }
     
     text.textContent = `Результат: ${result}`;
 }
